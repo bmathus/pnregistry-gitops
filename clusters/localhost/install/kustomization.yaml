@@ -10,3 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/mb-pnregistry-ufe
+
+components:
+ - ../../../components/version-developers
