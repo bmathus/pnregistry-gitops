@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: thamako3/pnregistry-ufe
   newName: thamako3/pnregistry-ufe # {"$imagepolicy":  "wac-hospital:pnregistry-ufe:name"}
-  newTag: main.20240330.1559 # {"$imagepolicy": "wac-hospital:pnregistry-ufe:tag"}
+  newTag: main.20240330.2139 # {"$imagepolicy": "wac-hospital:pnregistry-ufe:tag"}
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"}
   newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
