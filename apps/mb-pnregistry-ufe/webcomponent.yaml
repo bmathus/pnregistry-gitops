@@ -7,9 +7,12 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: mb-pnregistry-list    # element, ktorý bude vložený na stránku
-                                    # pri navigácii na zoznam čakajúcich
-      path: mb-pnregistry-list      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
+    - element: mb-pnregistry-app    # element, ktorý bude vložený na stránku pri navigácii na zoznam čakajúcich
+      attributes:
+      - name: api-base
+        value: http://localhost:5005/api
+
+      path: mb-pnregistry      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Evidečný systém PN     # názov mikro aplikácie
       details: Eviduje pre lekára PN ktoré vystavil svojim pacientom - autor:xbojko
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
