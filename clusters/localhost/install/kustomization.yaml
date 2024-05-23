@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/mb-pnregistry-ufe
+- ../../../apps/mb-pnregistry-webapi
 
 components:
  - ../../../components/version-developers
+ - https://github.com/bmathus/pnregistry-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/pnregistry-webapi.service.yaml

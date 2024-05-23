@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
+- name: thamako3/pnregistry-webapi
+  newName: thamako3/pnregistry-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: thamako3/pnregistry-ufe
   newName: thamako3/pnregistry-ufe # {"$imagepolicy":  "wac-hospital:pnregistry-ufe:name"}
   newTag: main.20240521.0008 # {"$imagepolicy": "wac-hospital:pnregistry-ufe:tag"}

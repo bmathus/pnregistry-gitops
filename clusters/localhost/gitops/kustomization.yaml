@@ -13,6 +13,8 @@ resources:
  - git-repository.yaml
  - pnregistry-ufe.image-repository.yaml
  - pnregistry-ufe.image-policy.yaml
+ - pnregistry-webapi.image-repository.yaml
+ - pnregistry-webapi.image-policy.yaml
  - ufe-controller.image-repository.yaml
  - ufe-controller.image-policy.yaml
  - image-update-automation.yaml
