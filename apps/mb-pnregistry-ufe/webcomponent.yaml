@@ -10,7 +10,7 @@ spec:
     - element: mb-pnregistry-app    # element, ktorý bude vložený na stránku pri navigácii na zoznam čakajúcich
       attributes:
       - name: api-base
-        value: http://localhost:30081/api
+        value: /mb-api
 
       path: mb-pnregistry      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Evidečný systém PN     # názov mikro aplikácie
