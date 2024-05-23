@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/mb-pnregistry-ufe
 - ../../../apps/mb-pnregistry-webapi
+- ../../../apps/mongo-express
 
 components:
  - ../../../components/version-developers
