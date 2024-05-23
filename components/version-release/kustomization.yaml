@@ -4,6 +4,9 @@ images:
 - name: thamako3/pnregistry-ufe
   newName: thamako3/pnregistry-ufe
   newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: thamako3/pnregistry-webapi
+  newName: thamako3/pnregistry-webapi
+  newTag: 1.0.1
 
 replacements:
  - targets:
